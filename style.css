@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    /* background-image: url(background.webp);
+    background-repeat: no-repeat;  
+    background-size: cover;        
+    background-position: center;  */
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+#red{
+    background-color: rgb(237, 53, 115);
+}
+
+#green{
+    background-color: darkcyan;
+}
+
+#yellow{
+    background-color: darkorange;
+}
+
+#blue{
+    background-color: cornflowerblue;
+}
+
+.flash{
+    background-color: white !important; /*forces the change applied on the element*/
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 2px white;
+}
+
+.alert{
+    background-color: red !important;
+   
+}
+
+ 
